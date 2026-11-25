@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/doubao-banner.svg" width="960" alt="Doubao — Show me the logs.">
+  <img src="./assets/doubao-logs-banner.svg" width="960" alt="Doubao — Show me the logs.">
 </p>
 
 <h1 align="center">豆言豆语</h1>
