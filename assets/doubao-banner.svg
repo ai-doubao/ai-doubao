@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="300" viewBox="0 0 1120 300" role="img" aria-labelledby="title desc">
+  <title id="title">Doubao — Build. Test. Share.</title>
+  <desc id="desc">A cream wordmark and a warm amber orbital emblem on a midnight-blue drafting grid.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#0C1425"/>
+      <stop offset="1" stop-color="#172642"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FFE39B"/>
+      <stop offset="1" stop-color="#FFAA62"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#A6BDEB" stroke-opacity=".13"/>
+    </pattern>
+    <clipPath id="card">
+      <rect width="1120" height="300" rx="26"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1120" height="300" fill="url(#background)"/>
+    <path d="M633 0H1120V300H559Z" fill="#203758" fill-opacity=".52"/>
+    <rect x="606" width="514" height="300" fill="url(#grid)"/>
+    <path d="M56 49H102 M56 251H555 M608 251H1064" fill="none" stroke="#86A0CC" stroke-opacity=".38"/>
+    <circle cx="115" cy="49" r="3" fill="#FFC77B"/>
+    <text x="134" y="55" fill="#D4DFF4" font-family="ui-monospace, Consolas, monospace" font-size="17" letter-spacing="3">INDEPENDENT OPEN SOURCE</text>
+    <text x="55" y="173" fill="#FFF8ED" font-family="system-ui, 'Segoe UI', sans-serif" font-size="100" font-weight="800" letter-spacing="2">DOUBAO</text>
+    <text x="60" y="221" fill="#FFC77B" font-family="ui-monospace, Consolas, monospace" font-size="24" font-weight="600" letter-spacing="3">BUILD. TEST. SHARE.</text>
+    <g transform="translate(859 150)">
+      <circle r="104" fill="none" stroke="#B3CBF4" stroke-opacity=".33" stroke-dasharray="3 6"/>
+      <circle r="81" fill="#101C32" stroke="#6C8DC1" stroke-opacity=".58"/>
+      <path d="M-122 0H122 M0-121V121" fill="none" stroke="#A6BDEB" stroke-opacity=".31"/>
+      <path d="M-108-71v-15h15 M108-71v-15H93 M-108 71v15h15 M108 71v15H93" fill="none" stroke="#FFE39B" stroke-opacity=".65" stroke-width="2" stroke-linecap="round"/>
+      <ellipse rx="106" ry="36" transform="rotate(-29)" fill="none" stroke="#FFC77B" stroke-opacity=".75" stroke-width="2"/>
+      <path d="M-48 23C-65-11-35-52 4-54C32-55 56-36 57-10C58 16 39 41 11 48C-15 54-38 44-48 23Z" fill="url(#amber)"/>
+      <path d="M-32 25C-17 26-5 20 2 8C12-10 22-19 41-20" fill="none" stroke="#3D2D30" stroke-opacity=".84" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="91" cy="-51" r="6" fill="#FFE39B"/>
+      <circle cx="-90" cy="52" r="4" fill="#FFC77B"/>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1119" height="299" rx="25.5" fill="none" stroke="#9CB4E3" stroke-opacity=".36"/>
+</svg>
